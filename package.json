@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@erc725/erc725.js": "^0.24.2",
+    "@lukso/lsp4-contracts": "^0.15.0",
+    "@lukso/lsp8-contracts": "^0.15.0",
+    "ethers": "^6.12.0"
+  }
+}
