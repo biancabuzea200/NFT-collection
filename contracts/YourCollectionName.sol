@@ -15,11 +15,11 @@ contract YourCollectionName is LSP8Mintable {
         address newOwner
     )
         LSP8Mintable(
-            name, // name
-            ticker,
-            newOwner,
-            _LSP4_TOKEN_TYPE_NFT,
-            _LSP8_TOKENID_FORMAT_NUMBER
+            name, // NFT collection name
+            ticker, // NFT collection ticker
+            newOwner, // owner of the NFT contract (the address that controls it, sets metadata, can transfer the ownership of the contract)
+            _LSP4_TOKEN_TYPE_NFT, // type of the token is an NFT
+            _LSP8_TOKENID_FORMAT_NUMBER // format of each `tokenId`s is number (represented as bytes32)
         )
     {}
 
